@@ -1,276 +1,405 @@
 <!DOCTYPE html>
 <!--
-	Transit by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+        Transit by TEMPLATED
+        templated.co @templatedco
+        Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>TKD Fénix</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/skel-layers.min.js"></script>
-		<script src="js/init.js"></script>
-		<script src="js/menu-shrink.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-xlarge.css" />
-		</noscript>
-	</head>
-	<body>
+    <head>
+        <meta charset="UTF-8">
+        <title>TKD Fénix</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/skel.min.js"></script>
+        <script src="js/skel-layers.min.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/menu-shrink.js"></script>
+        <script src="js/jq-custom.js"></script>
+        <noscript>
+        <link rel="stylesheet" href="css/skel.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style-xlarge.css" />
+        </noscript>
+        <link rel="stylesheet" href="css/custom.css" />
+    </head>
+    <body>
 
-		<!-- Header -->
-			<header id="header">
-				<h1><a href="index.html">TKD Fénix</a></h1>
-				<nav id="nav">
-					<ul>
-					<li><a href="index.html" class="">O nás</a></li>
-					<li><a href="zacit.html" class="">Chci začít</a></li>
-						<li><a href="treninky.html" class="active">Tréninky</a></li>
-						<li><a href="kalendar.html">Kalendář akcí</a></li>
-						<li><a href="galerie.html">Galerie</a></li>
-						<li><a id="ga__stazeni" href="stazeni.html">Ke stažení</a></li>
-						<li><a href="kontakt.html">Kontakt</a></li>
-					</ul>
-				</nav>
-			</header>
+        <!-- Header -->
+        <header id="header">
+            <h1><a href="index.html">TKD Fénix</a></h1>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html" class="">O nás</a></li>
+                    <li><a href="zacit.html" class="">Chci začít</a></li>
+                    <li><a href="treninky.html" class="active">Tréninky</a></li>
+                    <li><a href="kalendar.html">Kalendář akcí</a></li>
+                    <li><a href="galerie.html">Galerie</a></li>
+                    <li><a id="ga__stazeni" href="stazeni.html">Ke stažení</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
 
-		<!-- Main -->
-			<section id="main" class="wrapper">
-				<div class="container 75%">
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="container 75%">
+                <header class="major">
+                    <h2>Tréninky</h2>
+                    <p>Kdy a kde si s námi můžeš zacvičit?</p>
+                </header>
 
-					<header class="major">
-						<h2>Tréninky</h2>
-						<p>Kdy a kde si s námi můžeš zacvičit?</p>
-					</header>
+                <h3>Rozpis tréninků</h3>
+                <div class="gym-buttons">
+                    <div class="gym" id="gym-1">
+                        <div class="gym-short">
+                            <strong>ZŠ Dolní Břežany</strong><br>&nbsp;<br><i>zobrazit kliknutím</i>
+                        </div>
+                        <div class="gym-full">
+                            <strong>ZŠ Dolní Břežany</strong><br><i>Na vršku 290,<br>Dolní Břežany, 252 41</i>
+                        </div>
+                    </div>
+                    <div class="gym active" id="gym-2">
+                        <div class="gym-short">
+                            <strong>ZŠ Praha Podolí</strong><br>&nbsp;<br><i>zobrazit kliknutím</i>
+                        </div>
+                        <div class="gym-full">
+                            <strong>ZŠ Praha Podolí</strong><br><i>Nedvědovo náměstí 140/13,<br>Praha 4 - Podolí, 147 00</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="gym-wrapper gym-1">
+                    <div class="table-wrapper">
+                        <table class="alt only-small">
+                            <thead>
+                                <tr>
+                                    <th>Den</th>
+                                    <th>Čas</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Pondělí</td>
+                                    <td>17:30 - 19:00 (Začátečníci, mírně pokročilí)</td>
+                                </tr>
+                                <tr>
+                                    <td>Čtvrtek</td>
+                                    <td>16:30 - 18:00 (Začátečníci, mírně pokročilí)</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="alt practice not-small">
+                            <thead>
+                                <tr>
+                                    <th colspan="2"></th>	
+                                    <th colspan="2">16:00 - 17:00</th>
+                                    <th colspan="2">17:00 - 18:00</th>
+                                    <th colspan="2">18:00 - 19:00</th>
+                                    <th colspan="2">19:00 - 20:00</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="weekday" colspan="2">Pondělí</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="training--basic" colspan="3">Začátečníci, mírně pokročilí</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr class="table-separator">
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td class="weekday" colspan="2">Čtvrtek</td>
+                                    <td></td>
+                                    <td class="training--basic" colspan="3">Začátečníci, mírně pokročilí</td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <header class="major">
+                        <h2>Kde cvičíme</h2>
+                        <p>
+                            Adresa: ZŠ Dolní Břežany, Na vršku 290, 252 41, Dolní Břežany
+                        </p>
+                    </header>
+                    <p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10266.028613135479!2d14.4609284!3d49.964347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3a4bdefedc320a84!2zWsOha2xhZG7DrSDFoWtvbGEgYSBNYXRlxZlza8OhIMWha29sYSBEb2xuw60gQsWZZcW-YW55!5e0!3m2!1scs!2scz!4v1440457014125" width="100%" height="300" frameborder="0" style="border:0"  scrolling="no" allowfullscreen></iframe>
+                    </p>
+                </div>
+                <div class="gym-wrapper gym-2 active">
+                    <div class="table-wrapper">
+                        <table class="alt only-small">
+                            <thead>
+                                <tr>
+                                    <th>Den</th>
+                                    <th>Čas</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Pondělí</td>
+                                    <td>19:45 - 21:15 (Vyšší trénink - matsogi(sparing))</td>
+                                </tr>
+                                <tr>
+                                    <td>Úterý</td>
+                                    <td>17:00 - 18:30 (Začátečníci, mírně pokročilí)<br>18:30 - 20:00 (Technický trénink - pokročilí)</td>
+                                </tr>
+                                <tr>
+                                    <td>Středa</td>
+                                    <td>20:00 - 21:30 (Vyšší trénink - reálná sebeobrana, posilko )</td>
+                                </tr>
+                                <tr>
+                                    <td>Čtvrtek</td>
+                                    <td>17:00 - 18:30 (Začátečníci, mírně pokročilí)</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2" class="icon fa-certificate">
+                                        Na vyšší tréninky mají přístup pouze zkušenější bojovníci s povolením trenérů.
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                        <table class="alt practice not-small">
+                            <thead>
+                                <tr class="table-separator-th">
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                                <tr class="table-header">
+                                    <th colspan="4"></th>
+                                    <th colspan="4">17:00 - 18:00</th>
+                                    <th colspan="4">18:00 - 19:00</th>
+                                    <th colspan="4">19:00 - 20:00</th>
+                                    <th colspan="4">20:00 - 21:00</th>
+                                    <th colspan="4">21:00 - 22:00</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="weekday" colspan="4">Pondělí</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="1" class="reset-table-td"></td>
+                                    <td class="training--advance" colspan="6">Vyšší trénink - matsogi(souboje)</td>
+                                    <td colspan="1" class="reset-table-td"></td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td class="weekday" colspan="4">Úterý</td>
+                                    <td class="training--basic" colspan="6">Začátečníci, mírně pokročilí</td>
+                                    <td class="training--black-belts" colspan="6">Technický trénink - pokročilí</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td class="weekday" colspan="4">Středa</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td  class="training--defence" colspan="6">Vyšší trénink - reálná sebeobrana, posilko </td>
+                                    <td colspan="2"></td>
+                                </tr>
+                                <tr>
+                                    <td class="weekday" colspan="4">Čtvrtek</td>
+                                    <td class="training--basic" colspan="6">Začátečníci, mírně pokročilí</td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                    <td colspan="2"></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="24" class="icon fa-certificate">
+                                        Na vyšší tréninky mají přístup pouze zkušenější bojovníci s povolením trenérů.
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <header class="major">
+                        <h2>Kde cvičíme</h2>
+                        <p>
+                            Adresa: ZŠ Nedvědovo náměstí 140/13, 147 00, Praha 4 - Podolí
 
-					<h3>Rozpis tréninků</h3>
-						<div class="table-wrapper">
-							<table class="alt only-small">
-								<thead>
-									<tr>
-										<th>Den</th>
-										<th>Čas</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Pondělí</td>
-										<td>17:30 - 19:00 (10. Kup, pro začátečníky)<br> 19:00 - 20:30 (Vyšší trénink - matsogi(sparing)) </td>
-									</tr>
-									<tr>
-										<td>Středa</td>
-										<td>20:00 - 21:30 (Vyšší trénink- reálná sebeobrana, posilko )</td>
-									</tr>
-									<tr>
-										<td>Čtvrtek</td>
-										<td>16:30 - 18:00  (10. Kup, pro začátečníky)</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="2" class="icon fa-certificate">
-										Na vyšší tréninky mají přístup pouze zkušenější bojovníci s povolením trenérů.
-										</td>
-									</tr>
-								</tfoot>
-							</table>
-							<table class="alt practice not-small">
-								<thead>
-									<tr>
-										<th colspan="2"></th>	
-										<th colspan="2">16:00 - 17:00</th>
-										<th colspan="2">17:00 - 18:00</th>
-										<th colspan="2">18:00 - 19:00</th>
-										<th colspan="2">19:00 - 20:00</th>
-										<th colspan="2">20:00 - 21:00</th>
-										<th colspan="2">21:00 - 22:00</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td class="weekday" colspan="2">Pondělí</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td class="training--basic" colspan="3">Začátečníci, mírně pokročilí</td>
-										<td class="training--advance" colspan="3">Vyšší trénink - matsogi(souboje)</td>
-										<td></td>
-										<td></td>
-										<td></td>
-									</tr>
-									</tr>
-									<tr>
-										<td class="weekday" colspan="2">Středa</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td  class="training--defence" colspan="3">Vyšší trénink- reálná sebeobrana, posilko </td>
-										<td></td>
-									</tr>
-									<tr>
-										<td class="weekday" colspan="2">Čtvrtek</td>
-										<td></td>
-										<td class="training--basic" colspan="3">Začátečníci, mírně pokročilí</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="15" class="icon fa-certificate">
-										Na vyšší tréninky mají přístup pouze zkušenější bojovníci s povolením trenérů.
-										</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-						<header class="major">
-							<h2>Kde cvičíme</h2>
-						<p>
-						Adresa: ZŠ Dolní Břežany, Na vršku 290, 252 41, Dolní Břežany
+                        </p>
+                    </header>
+                    <p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1280.7693538774029!2d14.421549100000009!3d50.05747210000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b9468d6820d17%3A0x1182ee80f4fed819!2sNedv%C4%9Bdovo+n%C3%A1m.+140%2F13%2C+147+00+Praha-Praha+4!5e0!3m2!1scs!2scz!4v1440304638385" width="100%" height="300" frameborder="0" style="border:0"  scrolling="no" allowfullscreen></iframe>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="" class="wrapper style1">
+            <div class="container 75%">
+                <header class="major">
+                    <h2>Kolik budu platit?</h2>
+                    <p>První dva týdny tréninků <strong>zdarma</strong>  na vyzkoušení.</p>
+                </header>
+                <div class="table-wrapper">
+                    <table class="alt">
+                        <thead>
+                            <tr>
+                                <th>Období</th>
+                                <th>Cena</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pololetí</td>
+                                <td>2500,-</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="icon fa-certificate">
+                                    Platbu můžete provézt na bankovní účet Taekwondu klubu Fenix, nebo hotově na trénincích, a to vždy na začátku danného období.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    Další možnost	
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Jednorázový vstup</td>
+                                <td>100,-</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="icon fa-certificate">
+                                    Pro zkušené bojovníky, návštěvy z jiných škol a hosty z jiných bojových umění po předchozí domluvě
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+                <p>
+                    Pro další možnosti placení se informujte u svých trenérů.
+                </p>
+                <h3>Údaje pro platbu</h3>
+                <ul class="">
+                    <li>Bankovní spojení: <strong>199319915/5500</strong></li>
+                    <li>Variabilní symbol: <strong>vaše rodné číslo</strong> (celé bez lomítka)</li>
+                </ul>
+                <p>Upozornění: Prosíme zkontrolujte si řádně, že je rodné číslo správně, jinak nemusí dojít ke spárování platby.</p>
+            </div>
+        </section>
 
-						</p>
-						</header>
-						<p>
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10266.028613135479!2d14.4609284!3d49.964347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3a4bdefedc320a84!2zWsOha2xhZG7DrSDFoWtvbGEgYSBNYXRlxZlza8OhIMWha29sYSBEb2xuw60gQsWZZcW-YW55!5e0!3m2!1scs!2scz!4v1440457014125" width="100%" height="300" frameborder="0" style="border:0"  scrolling="no" allowfullscreen></iframe>
-						</p>
-				</div>
-			</section>
-			<section id="" class="wrapper style1">
-				<div class="container 75%">
-				<header class="major">
-						<h2>Kolik budu platit?</h2>
-						<p>První dva týdny tréninků <strong>zdarma</strong>  na vyzkoušení.</p>
-					</header>
-						<div class="table-wrapper">
-							<table class="alt">
-								<thead>
-									<tr>
-										<th>Období</th>
-										<th>Cena</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>Pololetí</td>
-										<td>2500,-</td>
-									</tr>
-									<tr>
-										<td colspan="2" class="icon fa-certificate">
-										Platbu můžete provézt na bankovní účet Taekwondu klubu Fenix, nebo hotově na trénincích, a to vždy na začátku danného období.
-										</td>
-									</tr>
-									<tr>
-										<td colspan="2">
-										Další možnost	
-										</td>
-									</tr>
-									<tr>
-										<td>Jednorázový vstup</td>
-										<td>100,-</td>
-									</tr>
-									<tr>
-										<td colspan="2" class="icon fa-certificate">
-											Pro zkušené bojovníky, návštěvy z jiných škol a hosty z jiných bojových umění po předchozí domluvě
-										</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="2">
-										</td>
-									</tr>
-								</tfoot>
-							</table>
-						</div>
-						<p>
-							Pro další možnosti placení se informujte u svých trenérů.
-						</p>
-						<h3>Údaje pro platbu</h3>
-						<ul class="">
-							<li>Bankovní spojení: <strong>199319915/5500</strong></li>
-							<li>Variabilní symbol: <strong>vaše rodné číslo</strong> (celé bez lomítka)</li>
-						</ul>
-						<p>Upozornění: Prosíme zkontrolujte si řádně, že je rodné číslo správně, jinak nemusí dojít ke spárování platby.</p>
-				</div>
-			</section>
+        <!-- 			<section id="" class="wrapper style3">
+                                        <div class="container 75%">
+                                        <header class="major">
+                                                        <h2>Kdo tě bude trénovat?</h2>
+                                                        <p>V přípravě.</p>
+                                                </header>
+                                        </div>
+                                </section>
+        -->
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container">
+                <section class="links">
+                    <div class="row">
+                        <section class="6u 3u(medium) 12u$(small)">
+                            <h3>Partneři</h3>
+                            <ul class="unstyled footer-list">
+                                <li><a href="http://www.medalix.cz" target="_blank">Medalix.cz</a></li>
+                            </ul>
+                        </section>
+                        <section class="6u 9u(medium) 12u$(small)">
+                            <h3>Mapa stránek</h3>
+                            <ul class="unstyled footer-list">
+                                <li><a href="index.html" class="">O nás</a></li>
+                                <li><a href="zacit.html" class="">Chci začít</a></li>
+                                <li><a href="treninky.html">Tréninky</a></li>
+                                <li><a href="kalendar.html">Kalendář akcí</a></li>
+                                <li><a href="galerie.html">Galerie</a></li>
+                                <li><a href="stazeni.html">Ke stažení</a></li>
+                                <li><a href="kontakt.html">Kontakt</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                </section>
+                <div class="row">
+                    <div class="8u 12u$(medium)">
+                        <ul class="copyright">
+                            <li>&copy; TKD Fenix. Všechna práva vyhrazena.</li>
+                            <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+                        </ul>
+                    </div>
+                    <div class="4u$ 12u$(medium)">
+                        <ul class="icons">
 
-<!-- 			<section id="" class="wrapper style3">
-				<div class="container 75%">
-				<header class="major">
-						<h2>Kdo tě bude trénovat?</h2>
-						<p>V přípravě.</p>
-					</header>
-				</div>
-			</section>
- -->
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="container">
-					<section class="links">
-						<div class="row">
-							<section class="6u 3u(medium) 12u$(small)">
-								<h3>Partneři</h3>
-								<ul class="unstyled footer-list">
-									<li><a href="http://www.medalix.cz" target="_blank">Medalix.cz</a></li>
-								</ul>
-							</section>
-							<section class="6u 9u(medium) 12u$(small)">
-								<h3>Mapa stránek</h3>
-								<ul class="unstyled footer-list">
-									<li><a href="index.html" class="">O nás</a></li>
-									<li><a href="zacit.html" class="">Chci začít</a></li>
-									<li><a href="treninky.html">Tréninky</a></li>
-									<li><a href="kalendar.html">Kalendář akcí</a></li>
-									<li><a href="galerie.html">Galerie</a></li>
-									<li><a href="stazeni.html">Ke stažení</a></li>
-									<li><a href="kontakt.html">Kontakt</a></li>
-								</ul>
-							</section>
-						</div>
-					</section>
-					<div class="row">
-						<div class="8u 12u$(medium)">
-							<ul class="copyright">
-								<li>&copy; TKD Fenix. Všechna práva vyhrazena.</li>
-								<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-							</ul>
-						</div>
-						<div class="4u$ 12u$(medium)">
-							<ul class="icons">
-							
-								<li>
-									<a class="icon rounded fa-facebook" href="https://www.facebook.com/klubfenixcz" target="_blank"><span class="label">Facebook</span></a>
-								</li>
-<!-- 								<li>
-									<a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
-								</li>
- --><!-- 								<li>
-									<a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
-								</li>
- -->							</ul>
-						</div>
-					</div>
-				</div>
-			</footer>
+                            <li>
+                                <a class="icon rounded fa-facebook" href="https://www.facebook.com/klubfenixcz" target="_blank"><span class="label">Facebook</span></a>
+                            </li>
+                            <!-- 								<li>
+                                                                                                    <a class="icon rounded fa-facebook"><span class="label">Facebook</span></a>
+                                                                                            </li>
+                            --><!-- 								<li>
+                                                                                                   <a class="icon rounded fa-twitter"><span class="label">Twitter</span></a>
+                                                                                           </li>
+                            -->							</ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
-	</body>
+    </body>
 </html>
